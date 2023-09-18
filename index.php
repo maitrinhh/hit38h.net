@@ -34,15 +34,15 @@
   <body>
     <div class="wrapper">
       <!-- Header Start -->
-	    <?php
-        echo 'Explore, learn and grow.'
-        ?>
+	    
       <div class="header home">
         <div class="container-fluid">
           <div class="header-top row align-items-center">
             <div class="col-lg-3">
               <div class="brand">
-                <a href="index.php">Hit38</a>
+                <a href="index.php"><?php
+        echo 'Explore, learn and grow.'
+        ?></a>
               </div>
             </div>
             <div class="col-lg-9">
